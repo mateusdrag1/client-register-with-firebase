@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    Client Registration in Typescript with Firebase
+</h1>
 
-## Getting Started
+<p align="center">
+ <a href="#objective">Objective</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#usage">Usage</a> • 
+ <a href="#contribution">Contribution</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#license">License</a>
+</p>
 
-First, run the development server:
+<h4 align="center"> 
+	🎨 Client Registration
+</h4>
+
+<h2 id="objective" > 🎯 Objective </h2>
+
+Currently, most companies register customers and users daily, so it is interesting to know about this essential crud.
+
+The main objective of this work is to implement this crud using NextJS, typescript and Firebase, platforms that are widely used nowadays.
+
+<h2 id="technologies"> 🛠 Technologies </h2>
+
+The tools used in the construction of the project were:
+
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org)
+- [Typescript](https://www.typescriptlang.org)
+- [Firebase](https://firebase.google.com)
+- [Yarn](https://yarnpkg.com)
+- [VSCode](https://code.visualstudio.com)
+- [Git Bash](https://gitforwindows.org/)
+
+<h2 id="usage" > 👷 How to use locally </h2>
+
+It is mandatory to use Git, node and yarn(or npm).
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone the repository
+$ git clone https://github.com/mateusdrag1/client-register-with-firebase.git
+
+# Go to repository folder
+$ cd client-register-with-firebase
+# To install dependencies
+$ yarn install
+
+# Start web application (in dev)
+$ yarn dev
+
+# Access the following link:
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="contribution"> 🤝 Contribution </h2>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is for study purposes too, so drop me an email telling me what you're doing and why you're doing it, teach me what you know. All kinds of contributions are most welcome and appreciated!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h2 id="author"> 💻 Author </h2>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10229087?v=4" width="100px;" alt=""/>
 
-## Learn More
+By Matthieu Christian 💜 You can find me by:
 
-To learn more about Next.js, take a look at the following resources:
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthieuchristian/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matthieuceo@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="license"> 📝 License </h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT license and is make with course of the [Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!](https://www.udemy.com/course/react-redux-pt/).
